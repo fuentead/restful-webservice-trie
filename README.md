@@ -5,10 +5,10 @@
 Trie implementation to facilitate faster search when providing suggestions of words when a prefix is given.
 
 ## Trie Implementation Methods - Java Implementation
-insert - insert a word in the trie structure
-suggest - given a prefix, suggest the words that could match the prefix
-seeTrie - prints all words included in the trie
-loadTrie - loads trie with all dictionary words from the linux file: /usr/share/dict/words
+insert - insert a word in the trie structure  
+suggest - given a prefix, suggest the words that could match the prefix  
+seeTrie - prints all words included in the trie  
+loadTrie - loads trie with all dictionary words from the linux file: /usr/share/dict/words  
 findWord - to be implemented
 
 ## REST Webservice Implementation for Trie
