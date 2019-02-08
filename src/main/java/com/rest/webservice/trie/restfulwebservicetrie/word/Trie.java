@@ -65,16 +65,7 @@ public class Trie {
     * @return True if word found. False if word not found.
     */
    public boolean find(String word) {
-      int i = 0;
-      Node ptr = head;
-      while(i < word.length() && ptr.children.containsKey(word.charAt(i))) {
-         ptr = ptr.children.get(word.charAt(i));
-         i++;
-      }
-      if(ptr.isWord && i == word.length()) 
-         return true;
-      else 
-         return false;
+      return false;
    }
    
    /**
