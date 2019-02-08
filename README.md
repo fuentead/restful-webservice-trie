@@ -17,3 +17,22 @@ GET /words/suggest/{wordprefix} - returns list of suggested words with prefix
 GET /words/find-word/{word} - returns true or false if word is in the trie  
 POST /words - inserts a word in the trie
 
+## Start Webservice 
+Build and Run RestfulWebServiceTrieApplication.java
+
+## Java Files 
+### RestfulWebServiceTrieApplication.java
+Class To Start Webservice
+
+### Trie.java
+Class with trie implementation. Loads trie with linux dictionary words at startup calling the loadTrie() function
+
+### Word.java
+Class for word object
+
+### WordDaoService.java
+Class Component that implements all functions to call trie method class
+
+### WordResouce.java
+Class Controller implementing all the GET and SET functions to interface with the trie
+
